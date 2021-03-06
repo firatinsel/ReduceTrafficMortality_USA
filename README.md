@@ -11,6 +11,9 @@ Sklearn documentation for the *KMeans* model : https://scikit-learn.org/stable/m
 
 
 drvr_fatl_col_bmiles = Number of drivers involved in fatal collisions per billion miles 
-perc_fatl_speed = Percentage Of Drivers Involved In Fatal Collisions Who Were Speeding 
+
+perc_fatl_speed = Percentage Of Drivers Involved In Fatal Collisions Who Were Speeding
+
 perc_fatl_alcohol = Percentage Of Drivers Involved In Fatal Collisions Who Were Alcohol-Impaired 
+
 perc_fatl_1st_time = Percentage Of Drivers Involved In Fatal Collisions Who Had Not Been Involved In Any Previous Accidents 
