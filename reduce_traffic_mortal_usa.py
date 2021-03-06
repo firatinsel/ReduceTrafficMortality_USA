@@ -119,7 +119,7 @@ inertias = []
 for k in range(1,10):
     
     # Initializing KMeans object using the current number of clusters (k)
-    k_mean = KMeans(n_clusters = k, random_state = 8)
+    k_mean = KMeans(n_clusters = k)
     k_mean.fit(scaled_feature)
     inertias.append(k_mean.inertia_)
 
