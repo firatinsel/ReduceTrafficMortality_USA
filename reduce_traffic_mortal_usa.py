@@ -4,7 +4,7 @@
 # In[14]:
 
 
-# IMPORTING ALL NECESSARY LIBRARIES
+# Importing all necessary libraries
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -20,7 +20,7 @@ from sklearn.cluster import KMeans
 # In[13]:
 
 
-#READING DATA
+#Reading data
 bad_drv_df = pd.read_csv(r'C:\Users\firat\Desktop\road-accidents.csv',comment='#', sep='|')
 
 row_col = bad_drv_df.shape
@@ -34,7 +34,7 @@ bad_drv_df.head()
 # In[17]:
 
 
-#CREATING A PAIRWISE SCATTER PLOT USING SUMMARY STATISTICS
+#Creating a pairwise scatter plot using summary statistics
 stat_df = bad_drv_df.describe()
 
 print(stat_df)
